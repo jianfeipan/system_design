@@ -67,6 +67,84 @@ mindmap
       Fanout Strategies
 ```
 
+### Component Overview (GitHub-compatible)
+
+```mermaid
+classDiagram
+    class SystemDesignToolbox {
+        +ServerTier
+        +DataTier
+        +ThirdPartyServices
+        +Protocols
+        +Algorithms
+    }
+
+    class ServerTier {
+        +LoadBalancer
+        +WebAPIServers
+        +RateLimiter
+        +APIGateway
+        +MessageQueue
+        +WebSocketServer
+        +ServiceDiscovery
+        +FanoutService
+        +Workers
+        +Preprocessor
+        +DAGScheduler
+        +ResourceManager
+    }
+
+    class DataTier {
+        +DatabaseSQL
+        +DatabaseNoSQL
+        +Replication
+        +Sharding
+        +Cache
+        +CDN
+        +ConsistentHashing
+        +KeyValueStore
+        +BlobStorage
+        +ColdStorage
+        +Trie
+        +BloomFilter
+        +VectorClock
+        +MerkleTree
+    }
+
+    class ThirdPartyServices {
+        +PushNotifications
+        +SMSServices
+        +EmailServices
+        +CloudStorageS3
+    }
+
+    class Protocols {
+        +HTTP_HTTPS
+        +WebSocket
+        +LongPolling
+        +Polling
+        +Heartbeat
+        +GossipProtocol
+        +QuorumConsensus
+    }
+
+    class Algorithms {
+        +RateLimiting
+        +LoadBalancing
+        +CacheEviction
+        +Hashing
+        +DeltaSync
+        +PollingVsPush
+        +FanoutStrategies
+    }
+
+    SystemDesignToolbox --> ServerTier
+    SystemDesignToolbox --> DataTier
+    SystemDesignToolbox --> ThirdPartyServices
+    SystemDesignToolbox --> Protocols
+    SystemDesignToolbox --> Algorithms
+```
+
 ---
 
 ## Server Tier
