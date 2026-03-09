@@ -12,6 +12,7 @@ A comprehensive catalog of tools, components, and techniques used in system desi
 5. [Algorithms & Strategies](#algorithms--strategies)
 
 ### Mind Map
+<img width="1342" height="655" alt="image" src="https://github.com/user-attachments/assets/3599a89a-a6a0-43f2-b792-44c53d731256" />
 
 ```mermaid
 mindmap
